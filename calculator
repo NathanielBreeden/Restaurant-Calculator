@@ -1,0 +1,6 @@
+<title>Unit 5 Graded Exercise 2</title>
+Nathaniel Breeden, Restaurant Calculator //Header of page
+Bill Amount: //input number for Bill Amount: Tip %: //input number for Tip %: # of People: //input number for # of People
+<input type="submit" id="submitBtn" value="calculate" /> //create a submit button called calculate
+<script> function calculator () { 
+var billAmount = document.getElementById("bill).value var tip = document.getElementById("tip").value var people = document.getElementById("people").value var tipAmount = billAmount * .tip //gets tipAmount by multiplying billAmount and .tip var totalBill = billAmount + tipAmount //gets totalBill by adding billAmount and tipAmount var perPerson = totalBill / people //gets perPerson by diving totalBill by people document.write("Tip Amount; " + tipAmount + " Total Bill: " + totalBill + " Total per Person: " + perPerson) //displays tipAmount, totalBill, and perPerson } </script>
